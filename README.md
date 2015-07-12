@@ -1,2 +1,0 @@
-# NodeHUD
-The Argar Project
