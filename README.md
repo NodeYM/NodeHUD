@@ -1,21 +1,15 @@
-/////////////////////////////////////////////
-/////////////////////////////////////////////
-  _   _  ___  ____  _____ _   _ _   _ ____  
- | \ | |/ _ \|  _ \| ____| | | | | | |  _ \ 
- |  \| | | | | | | |  _| | |_| | | | | | | |
- | |\  | |_| | |_| | |___|  _  | |_| | |_| |
- |_| \_|\___/|____/|_____|_| |_|\___/|____/ 
-                                            
-/////////////////////////////////////////////
-/////////////////////////////////////////////
+NodeHUD
 
-This Hud was build on STARS_ modified brossel hud and I when through the files and updated them using files from other updated huds. New features have been
-added such as advanced class loadout screen.
+NodeHUD was build on STARS_ modified brossel hud and brought up to date (Gun Mettle update). New features have been added such as the advanced class loadout screen.
 
-Install
-copy the 'NodeHUD-master' folder into steamapps\common\Team Fortress 2\tf\custom
+Install unzip the file and copy the 'NodeHUD-master' folder into steamapps\common\Team Fortress 2\tf\custom
 
-Make sure you install ALL the fonts in the resource folder and in the resource/ui folder
-there are many fonts due to the fact that parts of this hud have been borrowed from other popular huds
+Make sure you install ALL the fonts in the resource folder and in the resource/ui folder there are many fonts due to the fact that parts of this hud have been borrowed from other popular huds
 
 enjoy!
+
+Changelog
+
+2/7/2015
+Version 1.0
+Fixed for all updates up to Gun Mettle
