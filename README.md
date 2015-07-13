@@ -1,4 +1,4 @@
-NodeHUD
+NodeHUD (http://nodeym.github.io/NodeHUD/)
 
 NodeHUD was build on STARS_ modified brossel hud and brought up to date (Gun Mettle update). New features have been added such as the advanced class loadout screen.
 
