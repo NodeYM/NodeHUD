@@ -10,6 +10,6 @@ enjoy!
 
 Changelog
 
-2/7/2015
-Version 1.0
-Fixed for all updates up to Gun Mettle
+* 2/7/2015
+  Version 1.0
+  Fixed for all updates up to Gun Mettle
