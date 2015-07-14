@@ -287,7 +287,7 @@ html, body { background: #333 url("http://codepen.io/images/classy_fabric.png");
 }
 
 .nav label {
-    width: 200px;
+    width: 90px;
     height: 100%;
     display: none;
     position: absolute;
@@ -301,7 +301,7 @@ html, body { background: #333 url("http://codepen.io/images/classy_fabric.png");
     color: #FFF;
     font-size: 156pt;
     text-align: center;
-    line-height: 380px;
+    line-height: 500px;
     font-family: "Varela Round", sans-serif;
     background-color: rgba(255, 255, 255, .3);
     text-shadow: 0px 0px 15px rgb(119, 119, 119);
