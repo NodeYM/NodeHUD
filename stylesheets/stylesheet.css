@@ -59,7 +59,8 @@ a {
 .page-header {
   color: #fff;
   text-align: center;
-  background-image: url ("https://farm4.staticflickr.com/3029/2929500955_1650861fd9_o_d.jpg");
+  background-color: #159957;
+  background-image: linear-gradient(120deg, #155799, #159957); }
 
 @media screen and (min-width: 64em) {
   .page-header {
