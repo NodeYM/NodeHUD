@@ -849,3 +849,10 @@ section #title .credits.right {
     display: none;
   }
 }
+
+#slideshow {
+position: relative;
+width: 562px !important; /*set your width*/
+height: 1000px !important; /*set your height*/
+margin: 0 auto;
+background-color: #000000; /*i needed a black background*/
