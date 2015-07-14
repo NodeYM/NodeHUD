@@ -280,7 +280,6 @@ html, body { background: #333 url("http://codepen.io/images/classy_fabric.png");
 
     transform: scale(0);
 
-    transition: all .7s ease-in-out;
 }
 
 .slide img {
@@ -320,7 +319,7 @@ input:checked + .slide-container  .slide {
 
     transform: scale(1);
 
-    transition: opacity 1s ease-in-out;
+
 }
 
 input:checked + .slide-container .nav label { display: block; }
