@@ -850,7 +850,7 @@ section #title .credits.right {
   }
 }
 
-#slideshow {
+  #slide {
 position: relative;
 width: 562px !important; /*set your width*/
 height: 1000px !important; /*set your height*/
