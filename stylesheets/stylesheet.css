@@ -1,8 +1,5 @@
 * {
-body {
-	background-size:cover;
-	font-family: 'weblysleek_uisemibold';
-	background-attachment:fixed;
+box-sizing: border-box; }
 
 body {
   padding: 0;
