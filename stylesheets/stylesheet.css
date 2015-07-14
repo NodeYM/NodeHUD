@@ -207,7 +207,7 @@ a {
   border: 0; }
 .main-content slide {
   padding: 0;
-  margin: 0;
+  margin: auto;
   border: 0; }
   
 @media screen and (min-width: 64em) {
