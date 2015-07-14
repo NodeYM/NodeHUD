@@ -250,8 +250,6 @@ a {
 
 html, body { background: #333 url("http://codepen.io/images/classy_fabric.png"); }
 
-.first { margin-top: 0 !important; margin-left: 0 !important; }
-
 .slides {
     padding: 0;
     width: 1000px;
@@ -362,4 +360,3 @@ input#img-6:checked ~ .nav-dots label#img-dot-6 {
 	background: rgba(0, 0, 0, 0.8);
 }
 
-.last { margin-bottom: 0 !important; margin-right: 0 !important; }
