@@ -38,27 +38,6 @@
 		"font"			"Days"
 		"fgcolor"		"Ammo In Clip"
 	}
-	"ChargeLabelShadow"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"ChargeLabelShadow"
-		"xpos"			"238"
-		"ypos"			"86"
-		"zpos"			"1"
-		"wide"			"120"
-		"tall"			"72"
-		"autoResize"	"1"
-		"pinCorner"		"2"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		"#TF_UberchargeMinHUD"
-		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"font"			"Days"
-		"fgcolor"		"0 0 0 255"
-	}
 	
 	"ChargeBackground"
 	{	
@@ -75,57 +54,13 @@
 		"fillcolor" 		"255 255 255 255"
 	}
 	
-	"IndividualChargesLabel"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"IndividualChargesLabel"
-		"xpos"			"236"
-		"ypos"			"39"
-		"zpos"			"2"
-		"wide"			"120"
-		"tall"			"72"
-		"autoResize"	"1"
-		"pinCorner"		"2"
-		"visible"		"0"
-		"enabled"		"0"
-		"tabPosition"	"0"
-		"labelText"		"#TF_IndividualUberchargesMinHUD"
-		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"font"			"Days"
-		"fgcolor"		"Ammo In Clip"
-	}
-	
-	"IndividualChargesLabelShadow"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName" 	"IndividualChargesLabel"
-		"xpos" 			"238"
-		"ypos" 			"41"
-		"zpos" 			"2"
-		"wide" 			"120"
-		"tall" 			"72"
-		"autoResize" 	"1"
-		"pinCorner" 	"2"
-		"visible" 		"0"
-		"enabled" 		"1"
-		"tabPosition" 	"0"
-		"labelText" 	"66"
-		"textAlignment" "center"
-		"dulltext"		"0"
-		"brighttext" 	"0"
-		"font" 			"Days"
-		"fgcolor"		"0 0 0 255"
-	}
-	
 	"ChargeMeter"
 	{	
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter"
 		"font"			"Days"
 		"xpos"			"75"
-		"ypos"			"115	"
+		"ypos"			"115"
 		"zpos"			"2"
 		"wide"			"150"
 		"tall"			"20"
@@ -137,7 +72,6 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"bgcolor" 		"32 32 32 128"
-		"fgcolor_override" "Uber Bar Color"
 	}
 
 	"ChargeMeter1"
@@ -220,55 +154,4 @@
 		"brighttext" 	"0"
 		"fgcolor_override"		"Uber Bar Color"
 	}
-
-	"ChargeMeterLabel"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"ChargeMeterLabel"
-		"xpos"			"75"
-		"ypos"			"117"
-		"zpos"			"3"
-		"wide"			"150"
-		"tall"			"15"
-		"autoResize"	"1"
-		"pinCorner"		"2"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		""
-		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"font"			"Days"
-		"fgcolor"	"150 150 150 255"
-	}	
-	
-	"HealthClusterIcon"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"HealthClusterIcon"
-		"xpos"			"9999"
-		"ypos"			"9999"
-		"wide"			"36"
-		"tall"			"36"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../hud/ico_health_cluster"
-		"scaleImage"	"1"	
-	}
-
-	"ResistIcon"
-	{
-		"ControlName" 	"ImagePanel"
-		"fieldName" 	"ResistIcon"
-		"xpos" 			"0"
-		"ypos"			"0"
-		"wide" 			"28"
-		"tall" 			"28"
-		"visible" 		"1"
-		"enabled" 		"1"
-		"image" 		"../HUD/defense_buff_bullet_blue"
-		
-	}	
 }
-
