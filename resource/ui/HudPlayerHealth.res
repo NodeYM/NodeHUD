@@ -108,31 +108,31 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusBleedImage"
-		"xpos"		"106"
-		"ypos"		"54"
+		"xpos"		"0"
+		"ypos"		"0"
 		"zpos"		"7"
-		"wide"		"0"
-		"tall"		"18"
+		"wide"		"20"
+		"tall"		"20"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"		"../vgui/bleed_drop"
-		"fgcolor"		"TanDark"
+		
 	}	
 	"PlayerStatusMilkImage"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusMilkImage"
-		"xpos"		"106"
-		"ypos"		"54"
+		"xpos"		"10"
+		"ypos"		"0"
 		"zpos"		"7"
-		"wide"		"18"
-		"tall"		"18"
+		"wide"		"20"
+		"tall"		"20"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"		"../vgui/bleed_drop"
-		"fgcolor"		"TanDark"
+		
 	}								
 	"PlayerStatusMarkedForDeathImage"
 	{

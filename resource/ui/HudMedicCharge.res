@@ -57,7 +57,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"Days"
-		"fgcolor"		"TransparentBlack"
+		"fgcolor"		"0 0 0 255"
 	}
 	
 	"ChargeBackground"
@@ -72,7 +72,7 @@
 		"tall"			"20"
 		"visible"		"0"
 		"enabled"		"0"
-		"fillcolor" 		"255 255 255 50"
+		"fillcolor" 		"255 255 255 255"
 	}
 	
 	"IndividualChargesLabel"
