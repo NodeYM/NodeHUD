@@ -4,8 +4,8 @@
 	{
 		"ControlName"		"CWaveStatusPanel"
 		"fieldName"			"WaveStatusPanel"
-		"xpos"				"1"
-		"ypos"				"18"
+		"xpos"				"100"
+		"ypos"				"8"
 		"zpos"				"0"
 		"wide"				"600"
 		"tall"				"67"
@@ -15,56 +15,70 @@
 		"verbose"			"1"
 	}
 	
+	"ScoreboardBackground"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"ScoreboardBackground"
+		"xpos"			"98"
+		"ypos"			"71"
+		"zpos"			"-1"
+		"wide"			"545"
+		"tall"			"288"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"0 0 0 100"
+	}
 	"PopFileLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PopFileLabel"
-		"font"			"surface11"
+		"font"			"Cerbetica24"
 		"labelText"		"%popfile%"
 		"textAlignment"	"center"
-		"xpos"			"458"
-		"ypos"			"315"
-		"wide"			"89"
-		"tall"			"20"
-		"fgcolor"		"255 255 255 255"
+		"xpos"			"118"
+		"ypos"			"c145"
+		"wide"			"290"
+		"tall"			"30"
+		"fgcolor"		"tanlight"
 	}
 
 	"DifficultyContainer"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"DifficultyContainer"
-		"xpos"			"411"
-		"ypos"			"149"
-		"wide"			"200"
-		"tall"			"100"
+		"xpos"			"430"
+		"ypos"			"c150"
+		"wide"			"150"
+		"tall"			"50"
 		"visible"		"1"
 		
 		"DifficultyLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"DifficultyLabel"
-			"font"			"surface10"
+			"font"			"Cerbetica24"
 			"labelText"		"#TF_MvM_Difficulty"
-			"textAlignment"	"west"
+			"textAlignment"	"center"
 			"xpos"			"0"
-			"ypos"			"0"
+			"ypos"			"-6"
 			"wide"			"150"
-			"tall"			"12"
-			"fgcolor"		"255 255 255 255"
+			"tall"			"30"
+			"fgcolor"		"tanlight"
 		}
 		
 		"DifficultyValue"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"DifficultyValue"
-			"font"			"surface10"
+			"font"			"Cerbetica16"
 			"labelText"		"%difficultyvalue%"
-			"textAlignment"	"east"
+			"textAlignment"	"center"
 			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"133"
-			"tall"			"12"
-			"fgcolor"		"255 255 255 255"
+			"ypos"			"16"
+			"wide"			"150"
+			"tall"			"20"
+			"fgcolor"		"tanlight"
 		}
 	}
 	
@@ -72,10 +86,10 @@
 	{
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"PlayerListBackground"
-		"xpos"			"100"
-		"ypos"			"75"
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"zpos"			"-1"
-		"wide"			"0" //400
+		"wide"			"400"
 		"tall"			"150"
 		"visible"		"1"
 		"enabled"		"1"
@@ -86,18 +100,18 @@
 		"src_corner_height"	"22"				// pixels inside the image
 		"src_corner_width"	"22"
 	
-		"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"	
+		"draw_corner_width"	"0"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"0"	
 	}
 	
 	"MvMPlayerList"
 	{
 		"ControlName"	"SectionedListPanel"
 		"fieldName"		"MvMPlayerList"
-		"xpos"			"48"
-		"ypos"			"147"
-		"wide"			"350"
-		"tall"			"148"
+		"xpos"			"110"
+		"ypos"			"79"
+		"wide"			"520"
+		"tall"			"150"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -105,14 +119,15 @@
 		"autoresize"	"3"
 		"linespacing"	"22"
 		"textcolor"		"White"
+		"font"			"Cerbetica24"
 	}
 	
 	"CreditStatsContainer"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"CreditStatsContainer"
-		"xpos"			"395"
-		"ypos"			"135"
+		"xpos"			"163"
+		"ypos"			"220"
 		"wide"			"400"
 		"tall"			"205"
 		"visible"		"1"
@@ -121,10 +136,10 @@
 		{
 			"ControlName"		"ScalableImagePanel"
 			"fieldName"		"CreditStatsBackground"
-			"xpos"			"0"
-			"ypos"			"0"
+			"xpos"			"9999"
+			"ypos"			"9999"
 			"zpos"			"-1"
-			"wide"			"0" //400
+			"wide"			"400"
 			"tall"			"135"
 			"autoResize"	"0"
 			"pinCorner"		"0"
@@ -135,20 +150,20 @@
 			"src_corner_height"	"22"				// pixels inside the image
 			"src_corner_width"	"22"
 		
-			"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"5"	
+			"draw_corner_width"	"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" "0"	
 		}
 		
 		"CreditsLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CreditsLabel"
-			"font"			"HudFontMediumSmall"
+			"font"			"Cerbetica16"
 			"labelText"		"#TF_PVE_Currency"
-			"textAlignment" "north-west"
-			"xpos"			"8"
-			"ypos"			"8"
-			"wide"			"0" //0
+			"textAlignment" "center"
+			"xpos"			"9999"
+			"ypos"			"9999"
+			"wide"			"200"
 			"fgcolor"		"tanlight"
 		}
 		
@@ -157,7 +172,7 @@
 			"ControlName"	"CCreditDisplayPanel"
 			"fieldName"		"PreviousWaveCreditInfoPanel"
 			"xpos"			"8"
-			"ypos"			"28"
+			"ypos"			"30"
 			"wide"			"184"
 			"tall"			"60"
 			"wide"			"200"
@@ -168,8 +183,8 @@
 		{
 			"ControlName"	"CCreditDisplayPanel"
 			"fieldName"		"TotalGameCreditInfoPanel"
-			"xpos"			"8"
-			"ypos"			"90"
+			"xpos"			"208"
+			"ypos"			"30"
 			"wide"			"184"
 			"tall"			"60"
 			"wide"			"200"
@@ -180,8 +195,8 @@
 		{
 			"ControlName"	"CCreditSpendPanel"
 			"fieldName"		"PreviousWaveCreditSpendPanel"
-			"xpos"			"85"
-			"ypos"			"28"
+			"xpos"			"8"
+			"ypos"			"75"
 			"wide"			"184"
 			"tall"			"60"
 			"wide"			"200"
@@ -192,12 +207,26 @@
 		{
 			"ControlName"	"CCreditSpendPanel"
 			"fieldName"		"TotalGameCreditSpendPanel"
-			"xpos"			"85"
-			"ypos"			"90"
+			"xpos"			"208"
+			"ypos"			"75"
 			"wide"			"184"
 			"tall"			"60"
 			"wide"			"200"
 			"visible"		"1"
+		}
+		
+				"RespecStatusLabel"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"RespecStatusLabel"
+			"font"			"HudFontSmall"
+			"labelText"		"%respecstatus%"
+			"textAlignment" "north-west"
+			"xpos"			"180"
+			"ypos"			"8"
+			"wide"			"220"
+			"tall"			"40"
+			"fgcolor"		"tanlight"
 		}
 	}
 }

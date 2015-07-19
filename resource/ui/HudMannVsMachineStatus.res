@@ -26,12 +26,12 @@
 		"enabled"			"1"
 	}
 	
-	"TankStatusPanel"
+	"BossStatusPanel"
 	{
-		"ControlName"		"CTankStatusPanel"
-		"fieldName"			"TankStatusPanel"
+		"ControlName"		"CMvMBossStatusPanel"
+		"fieldName"			"MvMBossStatusPanel"
 		"xpos"				"0"
-		"ypos"				"-10"
+		"ypos"				"0"
 		"zpos"				"0"
 		"wide"				"200"
 		"tall"				"100"
@@ -47,8 +47,8 @@
 	{
 		"ControlName"		"CCurrencyStatusPanel"
 		"fieldName"			"CurrencyStatusPanel"
-		"xpos"				"c-245"
-		"ypos"				"r120"
+		"xpos"				"c-190"
+		"ypos"				"r90"
 		"wide"				"100"
 		"tall"				"100"
 		"visible" 			"1"
@@ -57,15 +57,17 @@
 	
 	"InWorldCurrencyPanel"
 	{
-		"ControlName"		"CInWorldCurrencyStatus"
-		"fieldName"			"InWorldCurrencyPanel"
-		"xpos"				"c-210"
-		"ypos"				"r39"
-		"wide"				"100"
-		"tall"				"100"
+		"ControlName" 		"CInWorldCurrencyStatus"
+		"fieldName" 		"InWorldCurrencyPanel"
+		"xpos"				"c-190"
+		"ypos" 				"r65"
+		"wide" 				"100"
+		"tall" 				"20"
 		"visible" 			"1"
 		"enabled" 			"1"
 	}
+
+
 
 	"WarningSwoop"
 	{
@@ -88,7 +90,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"UpgradeLevelContainer"
 		"xpos"			"0"
-		"ypos"			"6"
+		"ypos"			"0"
 		"wide"			"640"
 		"tall"			"480"
 		"visible"		"0"
@@ -222,37 +224,37 @@
 		{
 			"ControlName"		"ScalableImagePanel"
 			"fieldName"		"Background"
-			"xpos"			"c-90"
+			"xpos"			"c-150"
 			"ypos"			"400"
-			"wide"			"180"
-			"tall"			"16"
+			"wide"			"300"
+			"tall"			"20"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			"../hud/color_panel_red"
 
-			"src_corner_height"	"23"				// pixels inside the image
-			"src_corner_width"	"23"
+			"src_corner_height"	"22"				// pixels inside the image
+			"src_corner_width"	"22"
 		
-			"draw_corner_width"	"3"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"3"	
+			"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"5"	
 		}
 	
 		"ServerChangeLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"ServerChangeLabel"
-			"font"			"surface12"
+			"font"			"HudFontSmall"
 			"textAlignment"	"center"
 			"labelText"		"%servermessage%"
-			"xpos"			"c-90"
+			"xpos"			"c-150"
 			"ypos"			"400"
-			"wide"			"180"
-			"tall"			"16"
+			"wide"			"300"
+			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"255 255 255 255"		
+			"fgcolor"		"tanlight"		
 		}
 	}
 	
