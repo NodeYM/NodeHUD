@@ -47,8 +47,8 @@
 	{
 		"ControlName"		"CCurrencyStatusPanel"
 		"fieldName"			"CurrencyStatusPanel"
-		"xpos"				"c-190"
-		"ypos"				"r90"
+		"xpos"				"c-245"
+		"ypos"				"r120"
 		"wide"				"100"
 		"tall"				"100"
 		"visible" 			"1"
@@ -57,17 +57,15 @@
 	
 	"InWorldCurrencyPanel"
 	{
-		"ControlName" 		"CInWorldCurrencyStatus"
-		"fieldName" 		"InWorldCurrencyPanel"
-		"xpos"				"c-190"
-		"ypos" 				"r65"
-		"wide" 				"100"
-		"tall" 				"20"
+		"ControlName"		"CInWorldCurrencyStatus"
+		"fieldName"			"InWorldCurrencyPanel"
+		"xpos"				"c-210"
+		"ypos"				"r39"
+		"wide"				"100"
+		"tall"				"100"
 		"visible" 			"1"
 		"enabled" 			"1"
 	}
-
-
 
 	"WarningSwoop"
 	{
@@ -90,7 +88,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"UpgradeLevelContainer"
 		"xpos"			"0"
-		"ypos"			"0"
+		"ypos"			"6"
 		"wide"			"640"
 		"tall"			"480"
 		"visible"		"0"
@@ -224,37 +222,37 @@
 		{
 			"ControlName"		"ScalableImagePanel"
 			"fieldName"		"Background"
-			"xpos"			"c-150"
+			"xpos"			"c-90"
 			"ypos"			"400"
-			"wide"			"300"
-			"tall"			"20"
+			"wide"			"180"
+			"tall"			"16"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			"../hud/color_panel_red"
 
-			"src_corner_height"	"22"				// pixels inside the image
-			"src_corner_width"	"22"
+			"src_corner_height"	"23"				// pixels inside the image
+			"src_corner_width"	"23"
 		
-			"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"5"	
+			"draw_corner_width"	"3"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"3"	
 		}
 	
 		"ServerChangeLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"ServerChangeLabel"
-			"font"			"HudFontSmall"
+			"font"			"surface12"
 			"textAlignment"	"center"
 			"labelText"		"%servermessage%"
-			"xpos"			"c-150"
+			"xpos"			"c-90"
 			"ypos"			"400"
-			"wide"			"300"
-			"tall"			"20"
+			"wide"			"180"
+			"tall"			"16"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"tanlight"		
+			"fgcolor"		"255 255 255 255"		
 		}
 	}
 	
