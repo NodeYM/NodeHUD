@@ -16,6 +16,6 @@ Install
 copy the 'NodeHUD' folder into steamapps\common\Team Fortress 2\tf\custom
 
 Make sure you install ALL the fonts in the resource folder and in the resource/ui folder
-there are many fonts due to the fact that parts of this hud have been borrowed from other popular huds
+there are many fonts due to the fact that parts of this hud have been borrowed from other huds
 
 enjoy!
