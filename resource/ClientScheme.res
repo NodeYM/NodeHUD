@@ -16,11 +16,13 @@ Scheme{Colors{
 	"TargetID buffed HP"  "140 255 100 255"
 
 	"Ammo in Clip"        "255 255 255 255"
+	"Ammo In Clip"		  "48 255 48 255"
 	"Ammo in Reserve"     "255 255 255 255"		
 		
 	"Damage Numbers"      "255 255 255 255"
 		
 	"Ubercharge Bar"      "255 255 255 255"
+	"Uber Bar Color"	  "235 226 202 255"
 
 	"Ubercharge Full 1"   "61 202 53 255"
 	"Ubercharge Full 2"   "19 165 12 255"
