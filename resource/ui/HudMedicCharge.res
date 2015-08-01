@@ -36,7 +36,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"Days"
-		"fgcolor"		"Ammo In Clip"
+		"fgcolor"		"0 255 128 255"
 	}
 	
 	"ChargeBackground"
