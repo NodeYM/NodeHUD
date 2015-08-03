@@ -137,40 +137,6 @@ there are many fonts due to the fact that parts of this hud have been borrowed f
 	<h2>
 <a id="test:" class="anchor" href="#test:" aria-hidden="true"><span class="octicon octicon-link"></span></a>Test: </h2>
 
-<script type = "text/javascript">
-
-var timeInSecs;
-var ticker;
-
-function startTimer(secs) {
-timeInSecs = parseInt(secs);
-ticker = setInterval("tick()", 1000); 
-}
-
-function tick( ) {
-var secs = timeInSecs;
-if (secs > 0) {
-timeInSecs--; 
-}
-else {
-clearInterval(ticker);
-startTimer(172800);  // start again
-}
-
-var hours= Math.floor(secs/3600);
-secs %= 3600;
-var mins = Math.floor(secs/60);
-secs %= 60;
-var pretty = ( (hours < 10 ) ? "0" : "" ) + hours + ":" + ( (mins < 10) ? "0" : "" ) + mins + ":" + ( (secs < 10) ? "0" : "" ) + secs;
-document.getElementById("countdown").innerHTML = pretty;
-}
-
-startTimer(172800);  // 48 hours in seconds
-
-</script>
-
-<span id="countdown" style="font-weight: bold;"></span>
-
       <footer class="site-footer">
         <span class="site-footer-owner"><a href="https://github.com/NodeYM/NodeHUD">NodeHUD</a> is maintained by <a href="https://github.com/NodeYM">NodeYM</a>.</span>
 
