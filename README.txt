@@ -13,5 +13,3 @@ This Hud was built on STARS_ modified brossel hud and is now fixed to the lastes
 
 Make sure you install ALL the fonts in the resource folder and in the resource/fonts folder
 there are many fonts due to the fact that parts of this hud have been borrowed from other huds
-
-enjoy!
