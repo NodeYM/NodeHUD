@@ -9,7 +9,7 @@
                                          
 ///////////////////////////////////////////										 
 ///////////////////////////////////////////	
-This Hud was build on STARS_ modified brossel hud and I when through the files and updated them using files from other updated huds. New features have been added such as advanced class loadout screen.
+This Hud was built on STARS_ modified brossel hud and is now fixed to the lastest update.
 
 Make sure you install ALL the fonts in the resource folder and in the resource/fonts folder
 there are many fonts due to the fact that parts of this hud have been borrowed from other huds
